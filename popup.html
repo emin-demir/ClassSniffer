@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClassSniffer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+      }
+      #elements {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px; /* Better spacing between elements */
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          margin: 0 5px 0 0;
+        }
+    }
+    #find-elements {
+      margin-top: 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Class Finder</h1>
+    <input type="text" id="class-name" placeholder="Enter class name" />
+    <button id="find-elements">Find Elements</button>
+    <div id="elements"></div>
+    <div class="button-container">
+      <button id="open-all-websites">Open All Websites</button>
+      <button id="copy-all-websites">Copy All Websites</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
