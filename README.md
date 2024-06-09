@@ -45,8 +45,8 @@ Class Finder is a Chrome extension that helps you find all elements on a webpage
     - Use the "Copy All Websites" button to copy all found URLs to the clipboard.
 
 ## Screenshots
-![screenshot1](images/screenshot1.jpg)
-![screenshot2](images/screenshot2.jpg)
-![screenshot3](images/screenshot3.jpg)
+![screenshot1](images/Screenshot1.jpg)
+![screenshot2](images/Screenshot2.jpg)
+![screenshot3](images/Screenshot3.jpg)
 
 ### I would like to upload it to google extension, but I will wait for now because it wants 5 dollars :)
